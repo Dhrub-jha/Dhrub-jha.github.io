@@ -136,32 +136,44 @@
 
     <!-- Hero Section -->
     <section id="home" class="min-h-screen flex items-center justify-center bg-grid pt-20">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-                <div class="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-4">
-                        Hello, I'm <span class="text-gradient">Dhrub Jha</span>
-                    </h1>
-                    <h2 class="text-xl md:text-2xl text-gray-400 mb-8">
-                        Python Developer & ML Engineer enthusiast
-                    </h2>
-                    <p class="text-lg text-gray-400 mb-8 max-w-lg">
-                        Passionate about turning AI/ML concepts into real-world solutions that make a difference.
-                           <a href="#contact" class="px-6 py-3 bg-primary rounded-md text-white font-medium hover:bg-opacity-80 transition">Get In Touch</a>
-                           <a href="#projects" class="px-6 py-3 border border-gray-700 rounded-md text-gray-300 font-medium hover:bg-gray-800 transition">View Projects</a>
-                    </div>
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <!-- Left side - Text content -->
+            <div class="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                    Hello, I'm <span class="text-gradient">Dhrub Jha</span>
+                </h1>
+                <h2 class="text-xl md:text-2xl text-gray-400 mb-8">
+                    Python Developer & ML Engineer enthusiast
+                </h2>
+                <p class="text-lg text-gray-400 mb-8 max-w-lg">
+                    Passionate about turning AI/ML concepts into real-world solutions that make a difference.
+                </p>
+            </div>
+            
+            <!-- Right side - Image and buttons -->
+            <div class="md:w-1/2 flex flex-col items-center space-y-8">
+                <!-- Profile image -->
+                <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
+                    <img src="me.jpeg" 
+                         alt="Dhrub Jha" 
+                         class="w-full h-full object-cover hover-scale">
+                    <div class="absolute inset-0 bg-primary opacity-10"></div>
                 </div>
                 
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-                        <img src="me.jpeg" 
-                             alt="Dhrub Jha" 
-                             class="w-full h-full object-cover hover-scale">
-                        <div class="absolute inset-0 bg-primary opacity-10"></div>
-                    </div>
+                <!-- Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="px-6 py-3 bg-primary rounded-md text-white font-medium hover:bg-opacity-80 transition text-center">
+                        Get In Touch
+                    </a>
+                    <a href="#projects" class="px-6 py-3 border border-gray-700 rounded-md text-gray-300 font-medium hover:bg-gray-800 transition text-center">
+                        View Projects
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+</section>
     </section>
 
     <!-- About Section -->
